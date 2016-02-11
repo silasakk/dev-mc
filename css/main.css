@@ -1,0 +1,208 @@
+@font-face {
+  font-family: 'supermarket';
+  src: url("../fonts/supermarket-webfont.eot");
+  src: url("../fonts/supermarket-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/supermarket-webfont.woff2") format("woff2"), url("../fonts/supermarket-webfont.woff") format("woff"), url("../fonts/supermarket-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+a:link {
+  color: black; }
+
+a:visited {
+  color: black; }
+
+a:hover {
+  text-decoration: none; }
+
+body {
+  font-family: supermarket;
+  letter-spacing: 1px; }
+
+.logo {
+  display: inline-block;
+  float: left;
+  padding: 10px; }
+  .logo img {
+    width: 150px; }
+
+.menu-mobile {
+  float: right;
+  color: #fff;
+  font-size: 20px;
+  padding: 15px 10px 10px 10px;
+  display: inline-block; }
+
+.head-nav {
+  position: relative;
+  background: #121212; }
+
+.nav-item {
+  display: none;
+  background: #121212;
+  width: 100%;
+  left: 0;
+  top: 100%;
+  position: absolute;
+  padding: 20px 0; }
+  .nav-item li {
+    border-bottom: 1px solid #1e1e1e;
+    display: block; }
+    .nav-item li a {
+      display: block;
+      color: #fff;
+      padding: 10px 20px;
+      text-align: left;
+      font-size: 14px; }
+      .nav-item li a:hover, .nav-item li a.active {
+        color: #f1d17b; }
+
+.section-about {
+  margin: 40px 0; }
+  .section-about h1 {
+    margin-bottom: 10px;
+    font-size: 30px; }
+
+.banner-slide {
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 50px;
+  padding-top: 10px; }
+
+.flex-viewport {
+  overflow: visible !important; }
+
+.flexslider {
+  max-width: 320px;
+  width: 320px;
+  margin: 0 auto; }
+
+.content {
+  background: #f2f2f2;
+  max-width: 320px;
+  display: block;
+  margin: 0 auto; }
+
+.slides li {
+  opacity: 0.5; }
+  .slides li.flex-active-slide {
+    opacity: 1; }
+
+.about-item img {
+  display: inline-block; }
+.about-item li {
+  margin: 20px 0; }
+.about-item .title {
+  text-align: center;
+  margin: 10px 0;
+  font-weight: bold;
+  color: #000;
+  font-size: 16px; }
+.about-item .detail {
+  text-align: center; }
+
+.list4 {
+  margin: 40px 0; }
+  .list4 .detail {
+    text-align: left; }
+
+.footer {
+  background: url("../images/footer.jpg");
+  background-size: cover;
+  padding: 60px 0; }
+  .footer .ft-item {
+    margin-bottom: 20px;
+    font-size: 16px; }
+    .footer .ft-item ul {
+      padding-left: 10px;
+      margin-top: 20px; }
+      .footer .ft-item ul li {
+        margin-bottom: 20px; }
+
+.sc-footer {
+  background-size: cover; }
+  .sc-footer li {
+    display: inline-block;
+    margin-right: -4px; }
+    .sc-footer li a {
+      display: inline-block;
+      background: #3c3c42;
+      width: 35px;
+      height: 35px;
+      line-height: 35px;
+      text-align: center;
+      color: #fff; }
+
+@media (min-width: 768px) {
+  .flexslider {
+    max-width: 700px;
+    width: 700px; }
+
+  .content {
+    max-width: 700px; }
+
+  .about-item .title, .about-item .detail {
+    text-align: left; }
+  .about-item .list4 {
+    margin-top: 10px; }
+
+  .nav-item {
+    display: inline-block;
+    position: static;
+    padding: 20px 0; }
+    .nav-item li {
+      border-bottom: none;
+      display: inline-block; }
+      .nav-item li img {
+        width: 150px; }
+      .nav-item li a {
+        display: block;
+        color: #fff;
+        padding: 10px 15px;
+        text-align: left;
+        font-size: 14px; }
+        .nav-item li a:hover, .nav-item li a.active {
+          color: #f1d17b; }
+
+  .menu-mobile {
+    display: none; }
+
+  .nav-item {
+    display: block; }
+
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 10px; }
+    .footer .ft-item ul {
+      padding-left: 0;
+      margin-top: 20px; }
+      .footer .ft-item ul li {
+        font-size: 12px;
+        margin-bottom: 5px;
+        color: #666; } }
+@media (min-width: 992px) {
+  .flexslider {
+    max-width: 900px;
+    width: 900px; }
+
+  .nav-item li img {
+    width: auto; }
+
+  .nav-item li a {
+    padding: 10px 20px; }
+
+  .footer {
+    padding-top: 150px; } }
+/*
+.nav-item{
+  text-align: center;
+  padding: 20px 0;
+  li{
+    display: inline-block;
+    a{
+      color: #fff;
+      padding: 40px;
+      font-size: 14px;
+    }
+  }
+}*/
+
+/*# sourceMappingURL=main.css.map */
